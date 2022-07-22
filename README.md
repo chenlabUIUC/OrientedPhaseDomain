@@ -25,6 +25,6 @@ Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of th
 
 (B) For the calculation of pair distribution function and pair correlation function
 
-For the pair distribution function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Execute the code "DomainRadialDistribution_averageFiles.m" will calculate and plot pair distribution function.
+For the pair distribution function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_averageFiles.m" and run it. It will calculate and plot pair distribution function.
 
-For the pair correlation function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Execute the code "DomainRadialDistribution_corrLen.m" will calculate the pair correlation function.
+For the pair correlation function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function.
