@@ -22,4 +22,6 @@ The matrixes of g-vectors are obtained from the 4D-STEM data using the “imTool
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively.
 
-(B) For the calculation of pair distribution function and correlation length
+(B) For the calculation of pair distribution function and pair correlation function
+For the pair distribution function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Execute the code "DomainRadialDistribution_averageFiles.m" will calculate and plot pair distribution function.
+For the pair correlation function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Execute the code "DomainRadialDistribution_corrLen.m" will calculate the pair correlation function.
