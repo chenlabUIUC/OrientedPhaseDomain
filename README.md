@@ -21,3 +21,5 @@ The matrixes of g-vectors are obtained from the 4D-STEM data using the “imTool
 6. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Save domain map.
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively.
+
+(B) For the calculation of pair distribution function and correlation length
