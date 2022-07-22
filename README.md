@@ -13,7 +13,6 @@ For more information about the project, algorithms, and related publications ple
 (A) For mapping the strain and domain structures in cathode particles
 
 The matrixes of g-vectors are obtained from the 4D-STEM data using the “imToolBox” software. An example of matrix of g-vectors are provided ((g220).xlsx and (g002).xlsx). An example of mask is provided. The following steps should be executed only once (installation):
-(Matlab version: R2016a)
 
 1. Open "calculate_strain_g220_g002.m" and run it.
 2. Open "CreatPremask.m" and run it. Import ""mask-Pre.tif" in ImageJ and manually create a mask by delienating the particle shape.
