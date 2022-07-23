@@ -28,3 +28,6 @@ Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of th
 For the pair distribution function: One example of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_averageFiles.m" and run it. It will calculate and plot pair distribution function.
 
 For the pair correlation function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function.
+
+(C) For the Mn white line ratio analysis and EELS mapping
+Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Run the codes as instructed in the notebook. An example of EELS data for a pristine cathode NP is provided.
