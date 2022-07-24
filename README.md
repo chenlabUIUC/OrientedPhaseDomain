@@ -27,12 +27,12 @@ Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of th
 
 (B) For the calculation of radial distribution function and pair correlation function
 
-For the radial distribution function: Examples of the domain center of mass coordinates are provided as excel files. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Each excel file contains the domain center of mass coordinates for the tetragonal domains within one cathode particle. Open "DomainRadialDistribution_averageFiles.m" and run it. The code calculates the radial distribution function for the same type of domain and different types of domains considering all the cathode particles (for all the excel files).
+For the radial distribution function: Examples of the domain center of mass coordinates are provided as excel files. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Each excel file contains the domain center of mass coordinates for the tetragonal domains within one cathode particle. Open "DomainRadialDistribution_averageFiles.m" and run it. The code calculates the radial distribution function for the same type of domain and different types of domains considering all the cathode particles.
 
-For the pair correlation function: One example of the domain center of mass coordinates is provided as an excel file. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function.
+For the pair correlation function: One example of the domain center of mass coordinates for a cathode particleis provided as an excel file. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function for the cathode particle.
 
 (C) For the Mn white line ratio analysis and EELS mapping
 
 Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. We used Pearson method for the calculations of Mn white line ratio (L3/L2). 
-Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided.
-The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data.
+Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
+The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data and the corresponding mask.
