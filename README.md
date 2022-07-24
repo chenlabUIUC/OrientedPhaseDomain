@@ -12,7 +12,9 @@ For more information about the project, algorithms, and related publications ple
 
 (A) For mapping the strain and domain structures in cathode particles
 
-The matrixes of g-vectors are obtained from the 4D-STEM data using the “imToolBox” software. An example of matrix of g-vectors are provided ((g220).xlsx and (g002).xlsx). An example of mask is provided. The following steps should be executed only once (installation):
+The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM datasets using the “imToolBox” software package. For the instructions on how to analyze the raw 4D-STEM datasets and how to obtain the reciprocal lattice vectors, please refer to: https://github.com/flysteven/imToolBox
+
+An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx and (g002).xlsx), as well as the corresponding strain mask for the cathode particle. The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
 
 1. Open "calculate_strain_g220_g002.m" and run it.
 2. Open "CreatPremask.m" and run it. Import ""mask-Pre.tif" in ImageJ and manually create a mask by delienating the particle shape.
@@ -23,12 +25,12 @@ The matrixes of g-vectors are obtained from the 4D-STEM data using the “imTool
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively.
 
-(B) For the calculation of pair distribution function and pair correlation function
+(B) For the calculation of radial distribution function and pair correlation function
 
-For the pair distribution function: One example of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_averageFiles.m" and run it. It will calculate and plot pair distribution function.
+For the radial distribution function: Examples of the domain center of mass coordinates are provided as excel files. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Each excel file contains the domain center of mass coordinates for the tetragonal domains within one cathode particle. Open "DomainRadialDistribution_averageFiles.m" and run it. The code calculates the radial distribution function for the same type of domain and different types of domains considering all the cathode particles (for all the excel files).
 
-For the pair correlation function: Examples of the domain center of mass coordinates are provided (in the unit of pixel, pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function.
+For the pair correlation function: One example of the domain center of mass coordinates is provided as an excel file. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function.
 
 (C) For the Mn white line ratio analysis and EELS mapping
 
-Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Run the codes as instructed in the notebook. An example of EELS data for a pristine cathode NP is provided.
+Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code. Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided.
