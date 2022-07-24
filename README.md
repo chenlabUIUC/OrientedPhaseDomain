@@ -33,4 +33,6 @@ For the pair correlation function: One example of the domain center of mass coor
 
 (C) For the Mn white line ratio analysis and EELS mapping
 
-Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code. Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided.
+Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. We used Pearson method for the calculations of Mn white line ratio (L3/L2). 
+Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided.
+The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data.
