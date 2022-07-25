@@ -2,15 +2,18 @@
 % PURPOSE:  This script is designed to calculate thge averaged radial distribution of
 %                      domains over different MnO2 nanoparticle.
 % INPUT:
-%           Position matrix: 'Domain center of mass coordinates.xlsx'
+%           Position matrixes: 'Domain center of mass coordinates xxx.xlsx'
 %           L: double. Maximum distance.
 %           interval: double. Displacement interval.
 %           PBC: Switch for periodic boundary condition: "1" for on, "0" for off
 % OUTPUT:
-%           Plot of pair distribution function for same type of domains and different types of domains
+%           1. Plot of radial distribution function for same type of oriented 
+%           phase domains and between different types of oriented phase domains
+%           2. Excel file storing the radial distribution function: 
+%           "pairdistributuionfunction(pixelsize2nm).xlsx".  x-axis in the
+%           unit of pixels
 % REFERENCE: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 % HISTORY:  written by Chang Qian, 2021/12/29
-%
 
 function main()
 % Read center of mass of domains.
