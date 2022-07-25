@@ -51,3 +51,6 @@ figure
 P=imagesc(B);
 caxis([-1,2])
 load('cmapDomain.mat','mycmap');ax = gca; colormap(ax,mycmap);
+
+% Save the domain map
+xlswrite('DomainMap.xlsx',B);
