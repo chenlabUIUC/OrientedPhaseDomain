@@ -21,7 +21,8 @@ An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx a
 3. Open "MapStrainforXandY.m" and run it. Save strain maps.
 4. Open "CalculateTetragonalityHistogram.m" and run it. Histogram will be generated.
 5. Open "FitTetragonalityHist.m" and run it. Use the "cftool" for the fitting of the histogram. Set the constraints on the fitting parameters as needed to obtain a good fitting.
-6. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Save domain map.
+6. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Domain map will be genrated.
+7. Open ""CalculateDomainStatistics.m". Run it. A summary of domain count, area, and particle area will be calculated.
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively.
 
