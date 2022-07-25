@@ -4,12 +4,12 @@
 %           White line ratio matrix: 'WLR matrix.xlsx'
 %           Mask: 'mask.tif'
 % OUTPUT:
-%           White line ratio maps
+%           White line ratio map
 % HISTORY:  written by Wenxiang Chen and Lehan Yao, 2022
-
-% Load EELS white line intensity ratio (L3/L2) data. Load the mask for the cathode particle
 % Note: For how to obtain L3/L2 data from raw EELS data, refer to the code "Hyperspy EELS Mn White Line Ratio.ipynb"
 % Note: The direct output data from "Hyperspy EELS Mn White Line Ratio.ipynb" is in ".csv" format. Convert it to ".xlsx" format and remove coordinates in the file.
+
+% Load EELS white line intensity ratio (L3/L2) data. Load the mask for the cathode particle
 filename = 'WLR matrix.xlsx';
 filename2= 'mask.tif';
 
