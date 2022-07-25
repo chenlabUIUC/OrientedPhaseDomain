@@ -1,6 +1,6 @@
 # OrientedPhaseDomain
 
-This code package is developed to map the strain, oriented phase domain, and pair distribution function for the spinel MnO2 cathode particles during Mg ion insertion.
+This code package is developed to map the strain, oriented phase domain, and pair distribution function for the spinel MnO2 cathode particles with inserted ions.
 Current version: 1.0
 Date: 7/2022
 Test: Matlab 2016b on Microsoft Windows 10 using an Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz processor
@@ -14,7 +14,7 @@ For more information about the project, algorithms, and related publications ple
 
 The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM datasets using the “imToolBox” software package. For the instructions on how to analyze the raw 4D-STEM datasets and how to obtain the reciprocal lattice vectors, please refer to: https://github.com/flysteven/imToolBox
 
-An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx and (g002).xlsx), as well as the corresponding strain mask for the cathode particle. The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
+An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx and (g002).xlsx), as well as the corresponding mask of the cathode particle. The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
 
 1. Open "calculate_strain_g220_g002.m" and run it.
 2. Open "CreatPremask.m" and run it. Import ""mask-Pre.tif" in ImageJ and manually create a mask by delienating the particle shape.
@@ -35,4 +35,4 @@ For the pair correlation function: One example of the domain center of mass coor
 
 Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. We used Pearson method for the calculations of Mn white line ratio (L3/L2). 
 Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
-The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data and the corresponding mask.
+The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data and the corresponding mask of the cathode particle.
