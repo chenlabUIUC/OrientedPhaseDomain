@@ -7,10 +7,16 @@
 %           interval: double. Displacement interval.
 %           PBC: Switch for periodic boundary condition: "1" for on, "0" for off
 % OUTPUT:
+%           Pair correlation function: "pairdistributuionfunction(pixelsize2nm).xlsx".  x-axis in the
+%           unit of pixels
 %           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 % REFERENCE: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 % HISTORY:  written by Chang Qian, 2021/12/29
-%
+% Note: For position matrix file, the center of mass coordinates for the first
+% type of domain are stored in second and third columns (x and y, unit: pixel, 1 pixel=2nm)
+% The center of mass coordinates for the second type of domain are stored in 
+% the fifth and sixth columns
+
 
 function main()
 % Read center of mass of domains.
@@ -105,7 +111,7 @@ refline(0,0)
 % 2nd column as sum of +1 same orientation or -1 different orientation, 
 % 3rd column as count of domains at the distance
 % 4th column as the ratio 2nd/3rd column.
-xlswrite ('CorrLen', CorrLen);   
+xlswrite ('CorrLen.xlsx', CorrLen);   
 end
 
 
