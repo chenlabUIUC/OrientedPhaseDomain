@@ -13,5 +13,5 @@ pos_y=B(:,2);
 
 cftool(pos_x,pos_y);  % curve fitting tool
 
-% The fitting was performed with certain constraints. Please refer to our
-% manuscript for details.
+% Note: Fitting was performed with some constraints, considering the theoretical values of tetragonality
+% Please also refer to our manuscript.
