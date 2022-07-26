@@ -23,13 +23,13 @@ c1=0.84361;  % Input the lattice constant (nm) obtained from reference (pristine
 
 gref002=2/c1;
 strainA= (gref002-DA)./DA*100;
-xlswrite (filename4, strainA); % save the strain along g002 direction (y direction)
+xlswrite (filename4, strainA); % save the matrix of strain along g002 direction (y direction)
 
 DB = xlsread(filename3);
 c2=0.82738;  % Input the lattice constant (nm) obtained from reference (pristine) particle for g220
 gref220=sqrt(8)/c2;
 strainB= (gref220-DB)./DB*100;
-xlswrite (filename5, strainB); % save the strain along g220 direction (x direction)
+xlswrite (filename5, strainB); % save the matrix of strain along g220 direction (x direction)
 
-ratio=DA./DB; % save the ratio between g002 and g220 as tetragonality
+ratio=DA./DB; % save the matrix of the ratio between g002 and g220 (tetragonality)
 xlswrite (filename6, ratio);
