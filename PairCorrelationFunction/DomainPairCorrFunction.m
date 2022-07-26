@@ -1,24 +1,28 @@
 % NAME:  DomainPairCorrFunction.m
 % PURPOSE:  This script is designed to calculate pair correlation function of
-%           different types of domains in MnO2 cathode particles.
+%           different types of domains in the MnO2 cathode particle. 
+%           Analysis can be repeated for multiple cathode particles. Results (sum 
+%           and count) can be further combined for multiple cathode particles, from
+%           which the correlation length can be derived.
 % INPUT:
 %           Position matrix: 'Domain center of mass coordinates.xlsx'
 %           L: double. Maximum distance.
 %           interval: double. Displacement interval.
 %           PBC: Switch for periodic boundary condition: "1" for on, "0" for off
+%           pixelsize: the size of each pixel, depends on 4D-STEM setting
+%               Note: For position matrix file, the center of mass coordinates for the [100]t domain 
+%               are stored in second and third columns (x and y, unit: pixel)
+%               The center of mass coordinates for the [111]t domain are stored in 
+%               the fifth and sixth columns (x and y, unit: pixel)
 % OUTPUT:
 %           1. Center of mass map for tetragonal domains (Red dot: [100]t, Blue dot: [111]t)  
 %           2. Pair correlation function: "PairCorrFunction.xlsx.xlsx".  
-%              1st column as distance (nm). Pixel size of 2nm from the 4D-STEM setting
-%              2nd column as sum of +1 same orientation or -1 different orientation, 
+%              1st column as distance (nm)
+%              2nd column as sum of +1 same orientation or -1 different orientation
 %              3rd column as count of domains at the distance
 %              4th column as the ratio 2nd/3rd column as G(r)
 % REFERENCE: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 % HISTORY:  written by Chang Qian, 2021/12/29
-% Note: For position matrix file, the center of mass coordinates for the first
-% type of domain are stored in second and third columns (x and y, unit: pixel, 1 pixel=2nm)
-% The center of mass coordinates for the second type of domain are stored in 
-% the fifth and sixth columns
 
 
 function main()
