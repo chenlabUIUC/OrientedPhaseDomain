@@ -18,6 +18,8 @@ pos_y=B(:,2);
 % Check the fitting results
 result.b2  % threshold to distinguish the [100]t and pesudo cubic phase
 result.b4  % threshold to distinguish the [111]t and pesudo cubic phase. 
+% Note: In this example, the gaussian peak for [111]t domains has small amplitude, 
+% as this particle is majorly occupied by a [100]t domain other than a [11]t domain
 
 % Note: One can perform fitting for cathode particles using the cftool as follows.
 %       Fitting was performed with constraints, considering the theoretical 

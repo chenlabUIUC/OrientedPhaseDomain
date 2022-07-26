@@ -32,7 +32,7 @@ for x=1:1:XX
     end
 end
 
-%Map strain along x direction
+%Map strain along the x direction
 load('cmapStrain.mat','mycmap');
 number=size(mycmap,1)-1
 colorRange = [-3, 16];
@@ -49,7 +49,7 @@ colorbar()
 title('Strain_x_x')
 
 
-%Map strain along y direction
+%Map strain along the y direction
 load('cmapStrain.mat','mycmap');
 number=size(mycmap,1)-1
 colorRange = [-3, 16];
