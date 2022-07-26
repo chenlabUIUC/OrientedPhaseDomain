@@ -1,4 +1,4 @@
-% NAME:  MapDomain
+% NAME:     CalculateDomainStatistics
 % PURPOSE:  This code calculates the statistics of oriented phase domains in the particle 
 % INPUT:
 %           Domain map: 'DomainMap.xlsx'

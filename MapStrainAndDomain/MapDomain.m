@@ -1,4 +1,4 @@
-% NAME:  MapDomain
+% NAME:     MapDomain
 % PURPOSE:  This code generates the domain map based on the fitting reuslts from tetragonality histogram
 % INPUT:
 %           Tetragonality matrix: 'ratiobetween(g002)and(g220).xlsx'

@@ -1,4 +1,4 @@
-% NAME:  MapStrainforXandY
+% NAME:     MapStrainforXandY
 % PURPOSE:  This code maps strain along x and y directions without background
 % INPUT:
 %           Strain matrix: 'strain_(g220).xlsx' and 'strain_(g002).xlsx'

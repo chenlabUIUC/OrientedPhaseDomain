@@ -1,4 +1,4 @@
-% NAME:  Calculate_strain_(g220)_(g002)
+% NAME:     Calculate_strain_(g220)_(g002)
 % PURPOSE:  This script is designed to calculate the local strain and tetragonality 
 %           along x_(g220) and y_(g002) directions for cathode particles based on 
 %           reciprocal lattice vectors derived from 4D-STEM data

@@ -1,4 +1,4 @@
-% NAME:  CalculateTetragonalityHistogram
+% NAME:     CalculateTetragonalityHistogram
 % PURPOSE:  This code calculates the histogram of tetragonality for a
 %           cathode particle
 % INPUT:

@@ -1,4 +1,4 @@
-% NAME:  FitTetragonalityHist
+% NAME:     FitTetragonalityHist
 % PURPOSE:  This code opens the curve fitting tool for fitting the tetragonality histogram
 % INPUT:
 %           Tetragonality matrix: 'ratiobetween(g002)and(g220)_hist.xlsx'
