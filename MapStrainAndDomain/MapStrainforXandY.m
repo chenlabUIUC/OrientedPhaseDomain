@@ -2,10 +2,15 @@
 % PURPOSE:  This code maps strain along x and y directions without background
 % INPUT:
 %           Strain matrix: 'strain_(g220).xlsx' and 'strain_(g002).xlsx'
-%           Mask: 'mask.tif'
+%           Mask of the cathode particle: 'mask.tif'
+% Note:     For generating the mask of the cathode particle, please refer to 
+%           the particle morphology in the 4D-STEM data. One can manually delineate the
+%           particle shape and make a mask using, for example, imageJ. An example of 
+%           mask "mask.tif" is provided in the folder.
 % OUTPUT:
 %           Strain maps
 % HISTORY:  written by Lehan Yao and Wenxiang Chen, 2022
+
 
 % Load strain matrix data along x and y direction and the mask for the cathode particle
 filename1 = 'strain_(g220).xlsx';
@@ -41,6 +46,7 @@ imshow(B1_RGB)
 colormap(mycmap)
 caxis([-3,16])
 colorbar()
+title('Strain_x_x')
 
 %Map strain along y direction
 load('cmapStrain.mat','mycmap');
@@ -56,3 +62,4 @@ imshow(B2_RGB)
 colormap(mycmap)
 caxis([-3,16])
 colorbar()
+title('Strain_y_y')
