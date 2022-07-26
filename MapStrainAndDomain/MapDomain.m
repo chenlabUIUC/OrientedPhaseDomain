@@ -5,6 +5,7 @@
 %           Mask: 'mask.tif'
 % OUTPUT:
 %           Domain map
+%           Excel file of domain map: "DomainMap.xlsx"
 % HISTORY:  written by Wenxiang Chen and Chang Qian, 2019
 
 % Load data
@@ -51,6 +52,9 @@ figure
 P=imagesc(B);
 caxis([-1,2])
 load('cmapDomain.mat','mycmap');ax = gca; colormap(ax,mycmap);
+title('Domain distribution')
+xlabel('x (pixel)')
+ylabel('y (pixel)')
 
 % Save the domain map
 xlswrite('DomainMap.xlsx',B);

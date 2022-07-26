@@ -48,6 +48,7 @@ caxis([-3,16])
 colorbar()
 title('Strain_x_x')
 
+
 %Map strain along y direction
 load('cmapStrain.mat','mycmap');
 number=size(mycmap,1)-1

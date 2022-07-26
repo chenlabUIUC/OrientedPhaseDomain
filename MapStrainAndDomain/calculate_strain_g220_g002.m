@@ -1,11 +1,12 @@
 % NAME:  Calculate_strain_(g220)_(g002)
-% PURPOSE:  This script is designed to calculate the local strain for
-% cathode NPs along x_(g220) and y_(g002) directions based on reciprocal
-% lattice vectors derived from 4D-STEM data
+% PURPOSE:  This script is designed to calculate the local strain and tetragonality 
+%           along x_(g220) and y_(g002) directions for cathode particles based on 
+%           reciprocal lattice vectors derived from 4D-STEM data
 % INPUT:
 %           g vector matrix processed from 4D-STEM data: '(g002).xlsx' and '(g220).xlsx'
 % OUTPUT:
-%           Strain matrix and tetragonality matrix: 'strain_(g002).xlsx', 'strain_(g220).xlsx', 'ratiobetween(g002)and(g220).xlsx'
+%           Strain matrix: 'strain_(g002).xlsx', 'strain_(g220).xlsx'
+%           Tetragonality matrix:  'ratiobetween(g002)and(g220).xlsx'
 % HISTORY:  written by Wenxiang Chen, 2019
 
 
