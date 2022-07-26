@@ -3,11 +3,17 @@
 % INPUT:
 %           White line ratio matrix: 'WLR matrix.xlsx'
 %           Mask: 'mask.tif'
+% Note 1:   For how to obtain L3/L2 data and "WLR matrix.xlsx" from raw EELS data, 
+%           refer to the code "Hyperspy EELS Mn White Line Ratio.ipynb"
+% Note 2:   The direct output data from "Hyperspy EELS Mn White Line Ratio.ipynb" is in ".csv" 
+%           format. Convert it to ".xlsx" format and remove coordinates in the file.
+% Note 3:   For generating the mask of the cathode particle, please refer to 
+%           the particle morphology in the 4D-STEM data. One can manually delineate the
+%           particle shape and make a mask using, for example, imageJ. An example of 
+%           mask "mask.tif" is provided in the folder.
 % OUTPUT:
 %           White line ratio map
 % HISTORY:  written by Wenxiang Chen and Lehan Yao, 2022
-% Note: For how to obtain L3/L2 data from raw EELS data, refer to the code "Hyperspy EELS Mn White Line Ratio.ipynb"
-% Note: The direct output data from "Hyperspy EELS Mn White Line Ratio.ipynb" is in ".csv" format. Convert it to ".xlsx" format and remove coordinates in the file.
 
 % Load EELS white line intensity ratio (L3/L2) data. Load the mask for the cathode particle
 filename = 'WLR matrix.xlsx';
