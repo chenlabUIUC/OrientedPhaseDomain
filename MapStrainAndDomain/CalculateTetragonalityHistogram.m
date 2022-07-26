@@ -1,11 +1,16 @@
 % NAME:  CalculateTetragonalityHistogram
-% PURPOSE:  This code calculates the histogram of tetragonality
+% PURPOSE:  This code calculates the histogram of tetragonality for a
+%           cathode particle
 % INPUT:
 %           Tetragonality matrix: 'ratiobetween(g002)and(g220).xlsx'
 %           Mask: 'mask.tif'
 % OUTPUT:
 %           Histogram of tetragonality: 'ratiobetween(g002)and(g220)_hist.xlsx'
 % HISTORY:  written by Wenxiang Chen and Chang Qian, 2019
+% Note:     For generating the mask of the cathode particle, please refer to 
+%           the particle morphology in the 4D-STEM data. One can manually delineate the
+%           particle shape and make a mask using, for example, imageJ. An example of 
+%           mask "mask.tif" is provided in the folder.
 
 % Load data
 filename = 'ratiobetween(g002)and(g220).xlsx';
