@@ -18,7 +18,7 @@ lowlimit = 0.65;
 
 % Set the threshold from the fitting result here to distinguish the [111]t 
 % and pesudo cubic phase
-highlimit = 0.724; 
+highlimit = 0.73; 
 
 count = 0;
 B = xlsread(filename);
