@@ -1,11 +1,11 @@
 % NAME:  MapDomain
-% PURPOSE:  This code generates the domain map based on the fitting reuslts from tetragonality histogram
+% PURPOSE:  This code calculates the statistics of oriented phase domains in the particle 
 % INPUT:
 %           Domain map: 'DomainMap.xlsx'
 %           Mask: 'mask.tif'
 % OUTPUT:
-%           Statistics of the oriented phase domains: total number of
-%           domains, cathode particle area, total area of domains
+%           An excel file containing statistics of the oriented phase domains:
+%           'DomainStatistics.xlsx' (total number of domains, particle area, total area of domains)
 % HISTORY:  written by Wenxiang Chen and Chang Qian, 2019
 
 % Load data the domain distribution map
