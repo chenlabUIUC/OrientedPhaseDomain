@@ -17,12 +17,11 @@ The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM
 An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx and (g002).xlsx), as well as the corresponding mask of the cathode particle. The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
 
 1. Open "calculate_strain_g220_g002.m" and run it.
-2. Open "CreatPremask.m" and run it. Import ""mask-Pre.tif" in ImageJ and manually create a mask by delienating the particle shape.
-3. Open "MapStrainforXandY.m" and run it. Save strain maps.
-4. Open "CalculateTetragonalityHistogram.m" and run it. Histogram will be generated.
-5. Open "FitTetragonalityHist.m" and run it. Use the "cftool" for the fitting of the histogram. Set the constraints on the fitting parameters as needed to obtain a good fitting.
-6. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Domain map will be genrated.
-7. Open ""CalculateDomainStatistics.m". Run it. A summary of domain number, domain area, and particle area will be calculated.
+2. Open "MapStrainforXandY.m" and run it. Strain maps will be generated. Save strain maps as needed.
+3. Open "CalculateTetragonalityHistogram.m" and run it. Histogram of tetragonality will be generated and saved.
+4. Open "FitTetragonalityHist.m" and run it. Use the "cftool" for the fitting of the histogram. Set the constraints on the fitting parameters as needed to obtain a good fitting.
+5. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Domain map will be genrated.
+6. Open ""CalculateDomainStatistics.m". Run it. A summary of domain number, domain area, and particle area will be calculated.
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively.
 
