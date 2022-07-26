@@ -19,7 +19,7 @@ An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx a
 1. Open "calculate_strain_g220_g002.m" and run it.
 2. Open "MapStrainforXandY.m" and run it. Strain maps will be generated. Save strain maps as needed.
 3. Open "CalculateTetragonalityHistogram.m" and run it. Histogram of tetragonality will be generated and saved.
-4. Open "FitTetragonalityHist.m" and run it. Use the "cftool" for the fitting of the histogram. Set the constraints on the fitting parameters as needed to obtain a good fitting.
+4. Open "FitTetragonalityHist.m" and run it. Use the "cftool" for the fitting of the histogram. Set the constraints on the fitting parameters as needed to obtain a good fitting. An example of fitting results is provided.
 5. Open "MapDomain.m". Set the threshold from the fitting results to distinguish the [100]t and [111]t. An example of thresholds is provided in the code. Run it. Domain map will be genrated.
 6. Open ""CalculateDomainStatistics.m". Run it. A summary of domain number, domain area, and particle area will be calculated.
 
