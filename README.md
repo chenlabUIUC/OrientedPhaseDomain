@@ -10,7 +10,7 @@ For more information about the project, algorithms, and related publications ple
 
 # Getting started
 
-(A) For mapping the strain and domain structures in cathode particles
+(A) For mapping the strain and domain structures in cathode particles, visit folder "MapStrainAndDomain"
 
 The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM datasets using the “imToolBox” software package. For the instructions on how to analyze the raw 4D-STEM datasets and how to obtain the reciprocal lattice vectors, please refer to: https://github.com/flysteven/imToolBox
 
