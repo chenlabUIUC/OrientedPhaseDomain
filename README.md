@@ -33,6 +33,8 @@ For the pair correlation function: Open "DomainRadialDistribution_corrLen.m" and
 
 (C) For the Mn white line ratio analysis and EELS mapping, visit folder "EELSmapping"
 
-Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. We used Pearson method for the calculations of Mn white line ratio (L3/L2). 
-Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
-The code for generating the map of Mn white line ratio (L3/L2) is provided, together with an example data and the corresponding mask of the cathode particle.
+For the installation of the JupyterNotebook and the environment set up, please refer to the instructions in the "installation" folder.
+
+Open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. We used Pearson method for the calculations of Mn white line ratio (L3/L2). Run the codes as instructed in the notebook. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
+
+The code for generating the map of Mn white line ratio (L3/L2) is also provided, together with an example data and the corresponding mask of the cathode particle.
