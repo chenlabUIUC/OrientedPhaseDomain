@@ -29,6 +29,8 @@ Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of th
 
 For the radial distribution function: Open "DomainRadialDistribution_averageFiles.m" and run it. The code calculates the radial distribution function for the same type of domain and different types of domains considering all the cathode particles. Examples of the domain center of mass coordinates of each cathode particle are provided as excel files. Each excel file contains the domain center of mass coordinates for one cathode particle. The coordinates of the domain are in the unit of pixel (pixel size 2 nm). 
 
+Note: For how to calculate the center of mass coordinates for each domain in the particle, please refer to the "CenterofMass" folder in "RadialDistributionFunction".
+
 For the pair correlation function: Open "DomainRadialDistribution_corrLen.m" and run it. It will calculate the pair correlation function for the cathode particle. One example of the domain center of mass coordinates for a cathode particleis provided as an excel file. The coordinates of the domain are in the unit of pixel (pixel size 2 nm).
 
 (C) For the Mn white line ratio analysis and EELS mapping, visit folder "EELSmapping"
