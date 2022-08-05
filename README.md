@@ -25,7 +25,7 @@ The following procedures illustrate how to map strain and domain distribution ba
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively. "createFit.m" contains the example of fitting.
 
-Note: An additional dataset (pristine cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/More dataset/Pristine nanoparticle" folder.
+Note: An additional dataset (pristine cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/MapStrainAndDomain/More dataset/Pristine nanoparticle/" folder.
 
 (B) For the calculation of radial distribution function and pair correlation function, visit folders "RadialDistributionFunction" and "PairCorrelationFunction"
 
@@ -41,6 +41,6 @@ For the installation of the JupyterNotebook and the setup of the environment, pl
 
 In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. Run the codes as instructed in the notebook. We used Pearson method for the calculations of Mn white line ratio (L3/L2). To apply Pearson method, it is necessary to first run the codes for "Curve Fitting Method" to determine curve center. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
 
-The code for generating the map of Mn white line ratio (L3/L2), together with an example data and the corresponding mask of the cathode particle, is also provided in the "GenerateMap" folder.
+The code for generating the map of Mn white line ratio (L3/L2), together with an example dataset and the corresponding mask of the cathode nanoparticle (pristine nanoparticle), is also provided in the "GenerateMap" folder.
 
 An additional dataset (fully discharged cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset/" folder.
