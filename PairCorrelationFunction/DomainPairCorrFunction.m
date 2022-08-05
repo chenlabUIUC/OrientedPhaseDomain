@@ -13,7 +13,7 @@
 %               Note: For position matrix file, the center of mass coordinates for the [100]t domain 
 %               are stored in second and third columns (x and y, unit: pixel)
 %               The center of mass coordinates for the [111]t domain are stored in 
-%               the fifth and sixth columns (x and y, unit: pixel)
+%               the fifth and sixth columns (x and y, unit: pixel). Pixel size 2 nm.
 % OUTPUT:
 %           1. Center of mass map for tetragonal domains (Red dot: [100]t, Blue dot: [111]t)  
 %           2. Pair correlation function: "PairCorrFunction.xlsx.xlsx".  
