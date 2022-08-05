@@ -10,7 +10,7 @@
 %               Note: For position matrix file, the center of mass coordinates for the [100]t domain 
 %               are stored in second and third columns (x and y, unit: pixel)
 %               The center of mass coordinates for the [111]t domain are stored in 
-%               the fifth and sixth columns (x and y, unit: pixel)
+%               the fifth and sixth columns (x and y, unit: pixel). Pixel size 2 nm.
 % OUTPUT:
 %           1. Plot of radial distribution functions for same type of oriented 
 %           phase domains and between different types of oriented phase domains
