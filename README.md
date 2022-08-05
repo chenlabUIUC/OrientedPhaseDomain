@@ -12,9 +12,9 @@ For more information about the project, algorithms, and related publications ple
 
 (A) For mapping the strain and domain structures in cathode particles, visit folder "MapStrainAndDomain"
 
-The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM datasets using the “imToolBox” software package. For the instructions on how to analyze the raw 4D-STEM datasets, please refer to: https://github.com/flysteven/imToolBox
+An example dataset is provided (matrixes of reciprocal lattice vectors: (g220).xlsx and (g002).xlsx), as well as the corresponding mask of the cathode nanoparticle. This example dataset is from a cathode nanoparticle at the end of discharge in the aqueous electrolyte at C/10. The matrixes of reciprocal lattice vectors are obtained by analyzing the 4D-STEM datasets using the “imToolBox” software package. For the instructions on how to analyze the raw 4D-STEM datasets, please refer to: https://github.com/flysteven/imToolBox
 
-An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx and (g002).xlsx), as well as the corresponding mask of the cathode particle. The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
+The following procedures illustrate how to map strain and domain distribution based on the matrixes of reciprocal lattice vectors. The following steps should be executed only once:
 
 1. Open "calculate_strain_g220_g002.m" and run it.
 2. Open "MapStrainforXandY.m" and run it. Strain maps will be generated. Save strain maps as needed.
@@ -24,6 +24,8 @@ An example of matrixes of reciprocal lattice vectors are provided ((g220).xlsx a
 6. Open ""CalculateDomainStatistics.m". Run it. A summary of domain number, domain area, and particle area will be calculated and saved.
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively. "createFit.m" contains the example of fitting.
+
+Note: An additional dataset (pristine cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/More dataset/Pristine nanoparticle" folder.
 
 (B) For the calculation of radial distribution function and pair correlation function, visit folders "RadialDistributionFunction" and "PairCorrelationFunction"
 
@@ -41,4 +43,4 @@ In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ra
 
 The code for generating the map of Mn white line ratio (L3/L2), together with an example data and the corresponding mask of the cathode particle, is also provided in the "GenerateMap" folder.
 
-An additional dataset (fully discharged cathode NP) for testing the codes is included in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset/" folder.
+An additional dataset (fully discharged cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset/" folder.
