@@ -1,6 +1,6 @@
 # OrientedPhaseDomain
 
-This code package is developed to map the strain, oriented phase domain, and pair distribution function for the spinel MnO2 cathode particles with inserted ions.
+This code package is developed to map the strain, oriented phase domain, and pair distribution function for the spinel MnO2 cathode particles with inserted ions. Examples of 4D-STEM and EELS datasets are provided for the test of all the codes.
 Current version: 1.0
 Date: 7/2022
 Test: Matlab 2016b on Microsoft Windows 10 using an Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz processor
