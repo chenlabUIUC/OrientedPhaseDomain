@@ -55,6 +55,7 @@ load('cmapDomain.mat','mycmap');ax = gca; colormap(ax,mycmap);
 title('Domain distribution')
 xlabel('x (pixel)')
 ylabel('y (pixel)')
+axis image;
 
 % Save the domain map
 xlswrite('DomainMap.xlsx',B);
