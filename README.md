@@ -40,3 +40,5 @@ For the installation of the JupyterNotebook and the setup of the environment, pl
 In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. Run the codes as instructed in the notebook. We used Pearson method for the calculations of Mn white line ratio (L3/L2). To apply Pearson method, it is necessary to first run the codes for "Curve Fitting Method" to determine curve center. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
 
 The code for generating the map of Mn white line ratio (L3/L2), together with an example data and the corresponding mask of the cathode particle, is also provided in the "GenerateMap" folder.
+
+An additional dataset (fully discharged cathode NP) for testing the codes is included in the "More dataset" folder.
