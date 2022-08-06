@@ -25,7 +25,7 @@ The following procedures illustrate how to map strain and domain distribution ba
 
 Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of the strain and domain maps, respectively. "createFit.m" contains the example of fitting.
 
-Note: Additional datasets, including the pristine cathode nanoparticle and the cathode nanoparticle at an intermediate discharge cutoff voltage, are provided for testing the codes in the "OrientedPhaseDomain/MapStrainAndDomain/More dataset" folder.
+Note: Additional datasets, including the pristine cathode nanoparticle and the cathode nanoparticle at an intermediate discharge cutoff voltage in the aqueous electrolyte at C/10, are provided for testing the codes in the "OrientedPhaseDomain/MapStrainAndDomain/More dataset" folder.
 
 (B) For the calculation of radial distribution function and pair correlation function, visit folders "RadialDistributionFunction" and "PairCorrelationFunction"
 
