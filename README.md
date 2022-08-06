@@ -43,4 +43,4 @@ In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ra
 
 The code for generating the map of Mn white line ratio (L3/L2), together with an example dataset and the corresponding mask of the cathode nanoparticle (pristine nanoparticle), is also provided in the "GenerateMap" folder.
 
-An additional dataset (fully discharged cathode nanoparticle) for testing the codes is included in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset/" folder.
+Note: additional datasets, including the cathode nanoparticle at an intermediate discharge cutoff voltage and the cathode nanoparticle at the end of dicharge in the aqueous electrolyte at C/10, are provided for testing the codes in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset" folder.
