@@ -39,8 +39,8 @@ For the pair correlation function: Open "DomainRadialDistribution_corrLen.m" and
 
 For the installation of the JupyterNotebook and the setup of the environment, please refer to the "Instructions.docx" file in the "installation" folder.
 
-In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. Run the codes as instructed in the notebook. We used Pearson method for the calculations of Mn white line ratio (L3/L2). To apply Pearson method, it is necessary to first run the codes for "Curve Fitting Method" to determine curve center. An example of the low-loss and core-loss EELS data for a pristine cathode NP is provided for running the code.
+In the "AnalysisEELSWhiteLineRatio" folder, open "Hyperspy EELS Mn White Line Ratio.ipynb" using JupyterNotebook. Instructions on how to use the code are included in the beginning of the code and in the comments. Run the codes as instructed in the notebook. We used Pearson method for the calculations of Mn white line ratio (L3/L2). An example of the low-loss and core-loss EELS data for a cathode NP at the end of discharge in the aqueous electrolyte at C/10 is provided for running the code.
 
-The code for generating the map of Mn white line ratio (L3/L2), together with an example dataset and the corresponding mask of the cathode nanoparticle (pristine nanoparticle), is also provided in the "GenerateMap" folder.
+The code for generating the map of Mn white line ratio (L3/L2), together with an example dataset and the corresponding mask of the cathode nanoparticle, is provided in the "GenerateMap" folder.
 
-Note: additional datasets, including the cathode nanoparticle at an intermediate discharge cutoff voltage and the cathode nanoparticle at the end of dicharge in the aqueous electrolyte at C/10, are provided for testing the codes in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset" folder.
+Note: additional datasets, including the pristine cathode nanoparticle and the cathode nanoparticle at an intermediate discharge cutoff voltage in the aqueous electrolyte at C/10, are provided for testing the codes in the "OrientedPhaseDomain/EELSmapping/AnalysisEELSWhiteLineRatio/More dataset" folder.
