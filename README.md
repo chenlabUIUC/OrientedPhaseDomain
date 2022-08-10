@@ -27,7 +27,7 @@ Note: "cmapStrain.mat" and "cmapDomain.mat" files are for the color scales of th
 
 Note: Additional datasets, including the pristine cathode nanoparticle and the cathode nanoparticle at an intermediate discharge cutoff voltage in the aqueous electrolyte at C/10, are provided for testing the codes in the "OrientedPhaseDomain/MapStrainAndDomain/More dataset" folder.
 
-Note: For plotting the strain gradient, visit "OrientedPhaseDomain/MapStrainAndDomain/StrainGradient" folder. Run the codes "MapStrainGradientMagnitude.m" and "MapStrainGradientVector.m" to generate the strain gradient magnitude and vector map, respectively. An example of dataset is provided.
+Note: For plotting the strain gradient, visit "OrientedPhaseDomain/MapStrainAndDomain/StrainGradient" folder. The codes of "MapStrainGradientMagnitude.m" and "MapStrainGradientVector.m" are designed for generating the strain gradient magnitude and vector maps, respectively. An example of dataset is provided.
 
 (B) For the calculation of radial distribution function and pair correlation function, visit folders "RadialDistributionFunction" and "PairCorrelationFunction"
 
