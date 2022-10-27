@@ -9,6 +9,7 @@ For more information about the project, algorithms, and related publications ple
 # Reference
 
 If you find our statistical approach useful for analyzing your data, please cite:
+
 Wenxiang Chen, Xun Zhan, Renliang Yuan, Saran Pidaparthy, Adrian Xiao Bin Yong, Hyosung An, Zhichu Tang, Kaijun Yin, Arghya Patra, Heonjae Jeong, Cheng Zhang, Kim Ta, Zachary W. Riedel, Ryan M. Stephens, Daniel P. Shoemaker, Hong Yang, Andrew A. Gewirth, Paul V. Braun, Elif Ertekin, Jian-Min Zuo & Qian Chen, "Formation and impact of nanoscopic oriented phase domains in electrochemical crystalline electrodes" Nature Materials, https://doi.org/10.1038/s41563-022-01381-4 (2022).
 # Getting started
 
